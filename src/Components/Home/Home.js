@@ -7,10 +7,10 @@ const Home = () => {
         <div>
             <Banner></Banner>
             {/* Nested Route */}
-            <div className="nested flex justify-center">
-                <Link className='mx-3 text-xl' to={"breakfast"}> Breakfast</Link>
-                <Link className='mx-3 text-xl' to={"lunch"}> Lunch</Link>
-                <Link className='mx-3 text-xl' to={"dinner"}> Dinner</Link>
+            <div className="nested flex justify-center mt-10">
+                <Link className='mx-3 text-xl font-medium' to={"breakfast"}> Breakfast</Link>
+                <Link className='mx-3 text-xl font-medium' to={"lunch"}> Lunch</Link>
+                <Link className='mx-3 text-xl font-medium' to={"dinner"}> Dinner</Link>
             </div>
             <Outlet />
         </div>
