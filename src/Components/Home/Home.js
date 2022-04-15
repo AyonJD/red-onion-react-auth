@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 import Banner from './Banner/Banner';
 
 const Home = () => {
@@ -8,9 +9,9 @@ const Home = () => {
             <Banner></Banner>
             {/* Nested Route */}
             <div className="nested flex justify-center mt-10">
-                <Link className='mx-3 text-xl font-medium' to={"breakfast"}> Breakfast</Link>
-                <Link className='mx-3 text-xl font-medium' to={"lunch"}> Lunch</Link>
-                <Link className='mx-3 text-xl font-medium' to={"dinner"}> Dinner</Link>
+                <CustomLink className='mx-3 text-xl font-medium' to={"breakfast"}> Breakfast</CustomLink>
+                <CustomLink className='mx-3 text-xl font-medium' to={"lunch"}> Lunch</CustomLink>
+                <CustomLink className='mx-3 text-xl font-medium' to={"dinner"}> Dinner</CustomLink>
             </div>
             <Outlet />
         </div>
