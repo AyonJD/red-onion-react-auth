@@ -1,0 +1,15 @@
+.bg-banner {
+    background-image: url('./Assets/images/bannerbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+/* Banner */
+.banner-input{
+    border: none;
+    width: 300px;
+}
+.banner-input:focus{
+    border: none;
+    outline: none;
+}
