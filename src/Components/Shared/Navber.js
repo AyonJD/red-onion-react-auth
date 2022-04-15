@@ -12,7 +12,7 @@ const Navber = () => {
                 <div className="icon-section flex items-center">
                     <AiOutlineShoppingCart className='ml-5'></AiOutlineShoppingCart>
                     <button className='btn ml-5 font-medium'>Login</button>
-                    <button className='bg-red-500 py-1 px-5 rounded-full text-white ml-5'>Sign Uo</button>
+                    <button className='bg-red-500 py-1 px-5 rounded-full text-white ml-5'>Sign Up</button>
                 </div>
             </div>
         </nav>
