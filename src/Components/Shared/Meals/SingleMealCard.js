@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SingleBreakfast = ({ singleMeal }) => {
+const SingleMealCard = ({ singleMeal }) => {
     const { img, name, details, price } = singleMeal;
     return (
         <div>
@@ -24,4 +24,4 @@ const SingleBreakfast = ({ singleMeal }) => {
     );
 };
 
-export default SingleBreakfast;
+export default SingleMealCard;
