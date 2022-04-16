@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Breakfast from './Components/Shared/Meals/Breakfast';
 import Lunch from './Components/Shared/Meals/Lunch/Lunch';
 import Dinner from './Components/Shared/Meals/Dinner/Dinner';
+import SingleMealDetails from './Components/Shared/Meals/SingleMealDetails/SingleMealDetails';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='lunch' element={<Lunch></Lunch>}></Route>
           <Route path='dinner' element={<Dinner></Dinner>}></Route>
         </Route>
+        <Route path='/breakfast/:id' element={<SingleMealDetails></SingleMealDetails>}></Route>
       </Routes>
     </div>
   );

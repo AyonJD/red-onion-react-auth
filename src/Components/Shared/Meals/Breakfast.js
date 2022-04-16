@@ -5,7 +5,7 @@ import SingleMealCard from './SingleMealCard';
 const Breakfast = () => {
     const { breakfast } = useMeals()
     return (
-        <div className=' container mx-auto grid grid-cols-3 gap-5 mt-14 gap-y-10'>
+        <div className=' container mx-auto grid grid-cols-3 gap-10 mt-14'>
             {
                 breakfast.map(singleBreakfast => <SingleMealCard key={singleBreakfast.id} singleMeal={singleBreakfast}></SingleMealCard>)
             }

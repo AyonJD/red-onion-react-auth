@@ -10,7 +10,7 @@ const Navber = () => {
                     <img className='w-1/4' src={logo} alt="" />
                 </div>
                 <div className="icon-section flex items-center">
-                    <AiOutlineShoppingCart className='ml-5'></AiOutlineShoppingCart>
+                    <AiOutlineShoppingCart className='ml-5 bg-red-500 text-white rounded-full h-6 w-6 cursor-pointer'></AiOutlineShoppingCart>
                     <button className='btn ml-5 font-medium'>Login</button>
                     <button className='bg-red-500 py-1 px-5 rounded-full text-white ml-5'>Sign Up</button>
                 </div>

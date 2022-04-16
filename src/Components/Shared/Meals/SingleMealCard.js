@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const SingleMealCard = ({ singleMeal }) => {
-    const { img, name, details, price } = singleMeal;
+    const { img, name, details, price, id } = singleMeal;
     return (
-        <div>
+        <div className='custom-shadow rounded-lg'>
 
-            <div className="max-w-sm text-center bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                <Link to="#">
+            <div className="max-w-sm text-center">
+                <Link to={`/breakfast/${id}`}>
                     <img className="rounded-t-lg w-2/3 mx-auto pt-4" src={img} alt="" />
                 </Link>
                 <div className="p-5">
